@@ -1,0 +1,12 @@
+---- Configuration Steps ------
+
+01) Setup MYSQL database
+      * Get db.txt from MainServer github repository
+      * Create db and generate tables using db.txt
+
+02) Node Js Main Server
+     * Clone the github repository
+     * In root folder run command “npm install” ( install node modules)
+     * Go to  dbconfig.js file and add DB configurations ( port , dbname , username , password) 
+     * Run server using command “npm start”
+
